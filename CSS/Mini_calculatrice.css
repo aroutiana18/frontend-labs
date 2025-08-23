@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: linear-gradient(to left, rgb(0, 0, 0), rgb(121, 120, 120), rgb(134, 134, 134), rgb(0 0 0));
+    background: linear-gradient(to left, rgb(56, 54, 54), rgb(121, 120, 120), rgb(101, 99, 99), rgb(134, 134, 134), rgb(72, 69, 69));
 }
 
 #champ{
@@ -79,16 +79,9 @@ button:active{
     background-color: rgb(252, 208, 16);
 }
 
-
-
-div#sign{
-
+.version{
+    color: rgb(6, 6, 6);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 1rem;
-    font-style: italic;
-    font-weight: bold;
-    color: aliceblue;
-    margin-top: 50%;
-    margin-left: 70%;
-   
+    font-size: x-large;
+    margin-top: 40%;
 }

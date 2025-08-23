@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../CSS/Mini_claculatrice.css">
+    <link rel="stylesheet" href="../CSS/Mini_calculatrice.css">
     <link rel="stylesheet" href="../fontAwesome/css/all.min.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <title>Calculatrice1</title>
 </head>
 <body>
@@ -38,6 +37,10 @@
                 <button onclick="calculate()">=</button>
 
 
+                <button class="operation" onclick="supprimer()"><i class="fa-solid fa-backspace"></i></button>
+                <button onclick="appendToChamp('(')">(</button>
+                <button onclick="appendToChamp(')')">)</button>
+
                 <button class="operation"  onclick="reset()">    
                     <svg  xmlns="http://www.w3.org/2000/svg" width="45" height="45"  
                         fill="currentColor" viewBox="0 0 24 24" >
@@ -46,15 +49,16 @@
                      </svg>
                 </button>
 
-                <button class="operation" onclick="supprimer()"><i class="fa-solid fa-backspace"></i></button>
-
-
-                <div id="sign">®NAZI_18</div>
             </div>
             
        
       
     </div>
+
+    <div class="version">
+        <p>Made by Arotiana  &copy; Juin 2025</p>
+    </div>
+
     <script src="../JAVASCRIPT/Mini_calculatrice.js"></script>
 </body>
 </html>
