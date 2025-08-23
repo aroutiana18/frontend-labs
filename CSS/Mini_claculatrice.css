@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to left, rgb(0, 0, 0), rgb(121, 120, 120), rgb(134, 134, 134), rgb(0 0 0));
+}
+
+#champ{
+    width: 100%;
+    padding: 15px;
+    font-size: 3rem;/*taille du nombre(peut être des textes)*/
+    color: aliceblue;
+    text-align: left;
+    background-color: rgb(77, 77, 77);
+    border: none;
+
+}
+
+.calculator{
+    justify-content: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border: 2px solid rgb(0, 206, 195);
+    background-color: rgb(34, 34, 34);
+    border-radius: 15px;
+    box-shadow: 7px 7px 25px rgb(1, 3, 139);
+    border-inline-start-color: rgb(39, 255, 154);
+    border-inline-end-color: rgb(18, 211, 195);
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 400px;
+    max-height: 550px;
+    overflow: hidden;
+    color: aliceblue;
+}
+
+button{
+    width: 75px;
+    height: 75px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(61, 61, 61, 0.575);
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(119, 119, 119);
+}
+button:active{
+    background-color: rgb(173, 170, 170);
+}
+
+.Afaire{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);/*Pour les alignés dans une colonne en utilisant la fonction CSS repeat (nombre des colonnes,pour preéciser l'alignement)*/
+    gap: 10px;
+    padding: 25px;
+    color: whitesmoke;
+    font-size: larger;
+    text-align: center;
+}
+
+.operation{
+    background-color: rgb(255, 123, 0);
+}
+.operation:hover{
+    background-color: rgb(255, 167, 4);
+}
+.operation:active{
+    background-color: rgb(252, 208, 16);
+}
+
+
+
+div#sign{
+
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: bold;
+    color: aliceblue;
+    margin-top: 50%;
+    margin-left: 70%;
+   
+}
