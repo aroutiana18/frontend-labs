@@ -33,12 +33,15 @@ A functional, browser-based calculator interface designed for execution of stand
 To clone and explore this repository locally, execute the following commands in your terminal:
 
 1. Clone the repository:
+
 $ git clone [https://github.com/aroutiana18/frontend-labs.git]
 
 2. Navigate into the project root directory:
+
 $ cd frontend-labs
 
 3. Run the projects:
+
 Open the target index.html file (located inside either PageConnexion or MiniCalculatrice) directly in any standard web browser.
 
 Author: Arotiana Brad
