@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <header id="header">
+        <h1 class="logo">ABC2</h1>
+        <nav class="navigations">
+            <a href="index.html">Home</a>
+            <a href="https://eni.mg/" target="_blank" rel="noopener noreferrer">School</a>
+            <a href="#">About</a>
+            <button class="btnlogin" id="navLoginBtn">Sign In</button>
+        </nav>
+    </header>
+
+    <main class="wrapper">
+        <form id="loginForm">
+            <h1>Login</h1>
+            <h3>Access to your account</h3>
+            
+            <div class="input-box">
+                <div class="label-row">
+                    <label for="email">Email</label>
+                </div>
+                <input type="email" id="email" placeholder="name@example.com" required> 
+                <i class='bx bxs-envelope'></i>
+            </div>
+
+            <div class="input-box">
+                <div class="label-row">
+                    <label for="password">Password</label> 
+                    <a href="#" id="forgot">Forgot password ?</a>
+                </div>
+                <input type="password" id="password" placeholder="Your password..." required> 
+                <i class='bx bxs-lock'></i>
+            </div>
+
+            <button type="submit" class="button sign-btn">Sign in >></button>
+
+            <div class="sijamais">
+                <p>Don't have an account ?</p>
+            </div>
+
+            <button type="button" class="button register-btn" id="createAccountBtn">Create account</button>
+        </form>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>

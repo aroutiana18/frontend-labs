@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    min-height: 100vh;       
+    background-color: #1a1a1a; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 70px 20px 20px 20px;;
+}
+
+
+#header {
+    position: fixed;        
+    top: 0;                 
+    left: 0;                 
+    width: 100%;            
+    height: 70px;
+    background: linear-gradient(to right, #4e4e4e, #202020); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    z-index: 9999;          
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: 100;
+    color: aliceblue;
+    margin-left: 0; 
+}
+
+
+.navigations {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+}
+
+.navigations a {
+    position: relative;
+    font-size: 1.1em;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.navigations a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: whitesmoke;
+    border-radius: 5px;
+    left: 0;
+    bottom: -5px;
+    transform: scaleX(0);
+    transition: transform .3s ease;
+}
+
+.navigations a:hover::after {
+    transform: scaleX(1);
+}
+
+.navigations .btnlogin {
+    width: 100px;
+    height: 40px;
+    background: transparent;
+    color: aliceblue;
+    border: 2px solid aliceblue;
+    border-radius: 10px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+}
+
+.navigations .btnlogin:hover {
+    background: whitesmoke;
+    color: black;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 450px;
+    background: linear-gradient( rgb(53, 53, 53), rgb(24, 24, 24), rgb(58, 58, 58));
+    color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(2, 30, 189, 0.4);
+    padding: 40px 30px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin-top: 60px;
+}
+
+.wrapper h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-left: 0; 
+}
+
+.wrapper h3 {
+    font-size: 18px;
+    text-align: center;
+    color: rgb(168, 168, 175);
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.label-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    padding: 0 5px;
+}
+
+.label-row a {
+    color: #2345df; 
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.label-row a:hover {
+    text-decoration: underline;
+}
+
+.input-box input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    outline: none;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #fff;
+    padding: 0 45px 0 15px;
+    transition: border-color 0.3s;
+}
+
+.input-box input:focus {
+    border-color: rgb(3, 3, 226);
+}
+
+.input-box i {
+    position: absolute;
+    right: 15px;
+    bottom: 13px;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.button {
+    width: 100%;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: transform 0.2s, opacity 0.2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button:active {
+    transform: scale(0.98);
+}
+
+.button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.sign-btn {
+    background: linear-gradient(to right, rgb(3, 3, 226), rgb(17, 0, 116));
+    color: white;
+    margin-top: 10px;
+}
+
+.register-btn {
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    color: white;
+}
+
+.register-btn:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.sijamais {
+    margin: 20px 0;
+    font-size: 15px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+}

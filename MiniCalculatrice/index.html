@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../fontAwesome/css/all.min.css">
+    <title>Calculatrice</title>
+</head>
+<body>
+    <div class="calculator">
+        <input id="champ" readonly aria-label="Écran de la calculatrice">
+            
+        <div class="Afaire" id="touches">
+            <button class="operation" data-action="operator" data-valeur="+">+</button> 
+            <button data-action="num" data-valeur="7">7</button> 
+            <button data-action="num" data-valeur="8">8</button> 
+            <button data-action="num" data-valeur="9">9</button>
+            
+            <button class="operation" data-action="operator" data-valeur="-">-</button>
+            <button data-action="num" data-valeur="6">6</button>
+            <button data-action="num" data-valeur="5">5</button>
+            <button data-action="num" data-valeur="4">4</button> 
+
+            <button class="operation" data-action="operator" data-valeur="*">x</button>
+            <button data-action="num" data-valeur="3">3</button>
+            <button data-action="num" data-valeur="2">2</button>
+            <button data-action="num" data-valeur="1">1</button>
+           
+            <button class="operation" data-action="operator" data-valeur="/">/</button>
+            <button data-action="num" data-valeur=".">.</button>
+            <button data-action="num" data-valeur="0">0</button>
+            <button class="egal" data-action="calculate">=</button>
+
+            <button class="operation" data-action="delete">
+                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="currentColor" viewBox="0 0 24 24" style="vertical-align: middle;">
+                    <path d="M22 3H7c-.69 0-1.23.35-1.59.88L0 12l5.41 8.11c.36.53.9.89 1.59.89h15c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-3 12.59L17.59 17 14 13.41 10.41 17 9 15.59 12.59 12 9 8.41 10.41 7 14 10.59 17.59 7 19 8.41 15.41 12 19 15.59z"/>
+                </svg>
+            </button>
+            <button data-action="num" data-valeur="(">(</button>
+            <button data-action="num" data-valeur=")">)</button>
+
+            <button class="operation" data-action="clear">    
+                <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="m17,6v-2c0-1.1-.9-2-2-2h-6c-1.1,0-2,.9-2,2v2H2v2h2v12c0,1.1.9,2,2,2h12c1.1,0,2-.9,2-2v-12h2v-2h-5Zm-8-2h6v2h-6v-2Zm9,16H6v-12h12v12Z"></path>
+                    <path d="M14.29 10.29 12 12.59 9.71 10.29 8.29 11.71 10.59 14 8.29 16.29 9.71 17.71 12 15.41 14.29 17.71 15.71 16.29 13.41 14 15.71 11.71 14.29 10.29z"></path>
+                 </svg>
+            </button>
+        </div>
+    </div>
+
+    <div class="version">
+        <p>Made by Arotiana &copy; 2026</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
