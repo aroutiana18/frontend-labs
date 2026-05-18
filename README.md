@@ -44,5 +44,6 @@ $ cd frontend-labs
 
 Open the target index.html file (located inside either PageConnexion or MiniCalculatrice) directly in any standard web browser.
 
-Author: Arotiana Brad
+Author: MAHERINANDRASANA Arotiana Brad Florentin
+
 GitHub: aroutiana18
