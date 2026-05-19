@@ -34,11 +34,13 @@ To clone and explore this repository locally, execute the following commands in 
 
 1. Clone the repository:
 
-$ git clone [https://github.com/aroutiana18/frontend-labs.git]
+\`\`\`bash
+git clone [https://github.com/aroutiana18/frontend-labs.git]
 
 2. Navigate into the project root directory:
 
-$ cd frontend-labs
+\`\`\`bash
+cd frontend-labs
 
 3. Run the projects:
 
