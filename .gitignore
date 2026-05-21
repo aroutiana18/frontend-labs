@@ -1,8 +1,8 @@
 node_modules/
 
 # Logs
-logs
 *.log
+.cache/
 
 # Environment variables
 .env
