@@ -52,4 +52,3 @@ Open the target index.html file (located inside either PageConnexion or MiniCalc
 Author: MAHERINANDRASANA Arotiana Brad Florentin
 
 GitHub: aroutiana18
->>>>>>> 492cfac7e89b20c484ca449d7eb3d537d94c4252
